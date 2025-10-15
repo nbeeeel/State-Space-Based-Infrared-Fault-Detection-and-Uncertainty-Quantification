@@ -33,8 +33,8 @@ def main():
     }
 
     # Specify dataset paths here
-    image_directory = 'D:/Fault_Det_Umer/git/Modules/images'  # Replace with your image dataset path
-    mask_directory = 'D:/Fault_Det_Umer/git/Modules/masks'    # Replace with your mask dataset path
+    image_directory = './images'  # Replace with your image dataset path
+    mask_directory = './masks'    # Replace with your mask dataset path
     num_images = 464  # Adjust based on your dataset size
 
     # Load and split data
@@ -59,3 +59,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
