@@ -1,53 +1,47 @@
-Physics-Aware U-Net Segmentation Project
+**Physics-Aware U-Net Segmentation Project**
 
 A deep learning framework for image segmentation with physics-informed enhancements. This project implements a U-Net model with Vision Mamba blocks and custom loss functions, designed for segmenting grayscale images (e.g., fault detection in materials). The codebase supports both training and evaluation stages, leveraging TensorFlow for model development and evaluation.
 📑 Table of Contents
 
-Overview
-Features
-Project Structure
-Prerequisites
-Installation
-Dataset Preparation
-Execution Steps
-Training Stage
-Evaluation Stage
+1. Overview
+2. Features
+3. Project Structure
+4. Prerequisites
+5. Installation
+6. Dataset Preparation
+7. Execution Steps
+8. Training Stage
+9. Evaluation Stage
 
 
-Outputs
-Troubleshooting
-Contributing
-License
-
-
-🌟 Overview
+****🌟 Overview****
 This project provides a robust pipeline for training and evaluating a U-Net-based segmentation model with physics-aware enhancements, including Fourier-based thermal diffusion layers and state-space models. The model is designed for binary segmentation tasks, incorporating custom losses (e.g., weighted binary cross-entropy, focal loss, boundary loss) and uncertainty estimation for improved generalization.
 
 Training Stage: Trains the model using a dataset of images and corresponding masks, with k-fold cross-validation and physics-informed loss functions.
 Evaluation Stage: Evaluates the trained model on a test set, computing comprehensive metrics (IoU, F1, precision, recall, etc.), generating visualizations, and producing a detailed report. The weights can be downloaded from [Weights File](https://drive.google.com/file/d/1oeRlIh2s-yFfEyOd1Qn4j4f5BIckMWvt/view?usp=sharing).
 
-✨ Features
+****✨ Features****
 
-Physics-Aware U-Net: Integrates Vision Mamba blocks with Fourier-based thermal diffusion for physics-informed segmentation.
-Custom Loss Functions:
-Weighted binary cross-entropy for class imbalance.
-Focal loss for hard example focus.
-Boundary loss for enhanced edge detection.
-Uncertainty loss for robust generalization.
-
-
-Comprehensive Evaluation:
-Metrics: IoU, F1, precision, recall, MCC, Cohen's Kappa, ROC-AUC, PR-AUC.
-Visualizations: Input images, ground truth, predictions, thresholded predictions, and uncertainty maps.
-Optimal threshold analysis for best performance.
+1. Physics-Aware U-Net: Integrates Vision Mamba blocks with Fourier-based thermal diffusion for physics-informed segmentation.
+2. Custom Loss Functions:
+3. Weighted binary cross-entropy for class imbalance.
+4. Focal loss for hard example focus.
+5. Boundary loss for enhanced edge detection.
+6. Uncertainty loss for robust generalization.
 
 
-Modular Design: Organized into separate modules for model, data processing, losses, metrics, and utilities.
-Robust Error Handling: Extensive logging and validation to ensure reliable execution.
-Flexible Configuration: Easily customizable via configuration dictionaries in main.py and eval_main.py.
+***Comprehensive Evaluation:***
+1. Metrics: IoU, F1, precision, recall, MCC, Cohen's Kappa, ROC-AUC, PR-AUC.
+2. Visualizations: Input images, ground truth, predictions, thresholded predictions, and uncertainty maps.
+3. Optimal threshold analysis for best performance.
 
 
-📂 Project Structure
+a. Modular Design: Organized into separate modules for model, data processing, losses, metrics, and utilities.
+b. Robust Error Handling: Extensive logging and validation to ensure reliable execution.
+c. Flexible Configuration: Easily customizable via configuration dictionaries in main.py and eval_main.py.
+
+
+****📂 Project Structure****
 The project is organized into training and evaluation subdirectories for clarity. Below is the directory structure:
 segmentation_project/
 ├── training/
