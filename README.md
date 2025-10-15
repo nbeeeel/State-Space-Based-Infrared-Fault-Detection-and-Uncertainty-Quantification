@@ -29,7 +29,10 @@ This project provides a robust pipeline for training and evaluating a U-Net-base
 - **Training Stage**: Trains the model using a dataset of images and corresponding masks, with k-fold cross-validation and physics-informed loss functions.
 - **Evaluation Stage**: Evaluates the trained model on a test set, computing comprehensive metrics (IoU, F1, precision, recall, etc.), generating visualizations, and producing a detailed report.
 
-The codebase is modular, with separate files for model architecture, data processing, losses, metrics, and core training/evaluation logic, ensuring maintainability and scalability.
+The weight files and the training/testing images can be acquired from the below links.
+1. [Weights File](https://drive.google.com/file/d/1oeRlIh2s-yFfEyOd1Qn4j4f5BIckMWvt/view?usp=sharing) <\br>
+2. [Training Data](https://drive.google.com/drive/folders/1NUJZf8Z39rpg-vgpeKPqfdhgvoNMCCfP?usp=sharing) <\br>
+3. [Testing Data](https://drive.google.com/drive/folders/1YyfkmQsUaufHRTGTgJcd0sx85ooj89nr?usp=sharing) <\br>
 
 ---
 
