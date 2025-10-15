@@ -12,9 +12,9 @@ def main():
         'num_classes': 2,
         'batch_size': 8,
         'base_output_dir': './output/evaluation',  # Replace with your desired output directory
-        'weights_dir': 'D:/Fault_Det_Umer/git/Modules/Evaluation/weight',                 # Replace with your weights directory
-        'image_directory': 'D:/Fault_Det_Umer/git/Modules/images',     # Replace with your image dataset path
-        'mask_directory': 'D:/Fault_Det_Umer/git/Modules/masks',       # Replace with your mask dataset path
+        'weights_dir': './weight',                 # Replace with your weights directory
+        'image_directory': './images',     # Replace with your image dataset path
+        'mask_directory': './masks',       # Replace with your mask dataset path
         'num_images': 163,
         'd_model': 256,
         'd_model1': 512,
@@ -51,4 +51,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         logging.error(f"Evaluation failed: {str(e)}")
+
         raise
