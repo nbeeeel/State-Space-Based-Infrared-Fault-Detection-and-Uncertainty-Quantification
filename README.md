@@ -31,9 +31,7 @@ This project provides a robust pipeline for training and evaluating a U-Net-base
 
 The weight files and the training/testing images can be acquired from the below links.
 1. [Weights File](https://drive.google.com/file/d/1oeRlIh2s-yFfEyOd1Qn4j4f5BIckMWvt/view?usp=sharing)
-2. [Training Data/images](https://drive.google.com/drive/folders/1NUJZf8Z39rpg-vgpeKPqfdhgvoNMCCfP?usp=sharing)
-3. [Training Data/labels](https://drive.google.com/drive/folders/1dCP3TN_5dZTEo6cs3os8zVnfhGejbAz3?usp=sharing)
-4. [Testing Data](https://drive.google.com/drive/folders/1YyfkmQsUaufHRTGTgJcd0sx85ooj89nr?usp=sharing)
+2. [Dataset](https://1drv.ms/f/c/87ca7fe09b0225f0/IgByanG3ZwhaTZ4xgC28DoiaAXHaMfibfp25mk6wmBLh6JE?e=2VOS7D)
 
 ---
 
